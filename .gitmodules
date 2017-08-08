@@ -1,3 +1,6 @@
 [submodule "source/js/libs/floaty"]
 	path = source/js/libs/floaty
 	url = https://github.com/nagilum/floaty
+[submodule "source/js/libs/jk"]
+	path = source/js/libs/jk
+	url = https://github.com/nagilum/jk
