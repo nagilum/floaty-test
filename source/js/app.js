@@ -24,7 +24,5 @@ jk(() => {
 
     floaty.notFound((ctx) => { alert('PANIC'); });
 
-    floaty.init({
-        continueOnExceptions: true
-    });
+    floaty.init();
 });
