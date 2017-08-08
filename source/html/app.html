@@ -7,7 +7,27 @@
         {{ css }}
     </head>
     <body>
-        <h1>floaty</h1>
+        <article>
+            <h1>...</h1>
+        </article>
+
+        <template id="frontpage">
+            <h1>floaty</h1>
+
+            <a href="/about">about</a>
+            &middot;
+            <a href="https://microsoft.com">microsoft.com</a>
+            &middot;
+            <a href="/user/1">view user 1</a>
+            &middot;
+            <a href="/user/1/edit">edit user 1</a>
+        </template>
+
+        <template id="about">
+            <h1>about</h1>
+
+            <a href="/">frontpage</a>
+        </template>
 
         {{ js }}
     </body>
